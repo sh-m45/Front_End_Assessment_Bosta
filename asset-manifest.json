@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Front_End_Assessment_Bosta/static/css/main.7db08120.css",
+    "main.js": "/Front_End_Assessment_Bosta/static/js/main.9f6e04ee.js",
+    "static/js/787.4f22b5eb.chunk.js": "/Front_End_Assessment_Bosta/static/js/787.4f22b5eb.chunk.js",
+    "static/media/cairo-latin-400-normal.woff": "/Front_End_Assessment_Bosta/static/media/cairo-latin-400-normal.9ce5423a489ee9c5bb27.woff",
+    "static/media/cairo-arabic-400-normal.woff": "/Front_End_Assessment_Bosta/static/media/cairo-arabic-400-normal.899b51df7ecaf3877182.woff",
+    "static/media/cairo-latin-400-normal.woff2": "/Front_End_Assessment_Bosta/static/media/cairo-latin-400-normal.ea7b7233c41a0e8c0215.woff2",
+    "static/media/cairo-arabic-400-normal.woff2": "/Front_End_Assessment_Bosta/static/media/cairo-arabic-400-normal.7cabe1bc7d57710792ad.woff2",
+    "static/media/alarmImg.jpg": "/Front_End_Assessment_Bosta/static/media/alarmImg.d5394a1a7e9981930544.jpg",
+    "static/media/cairo-latin-ext-400-normal.woff": "/Front_End_Assessment_Bosta/static/media/cairo-latin-ext-400-normal.af8475a7ddb0ef2f7712.woff",
+    "static/media/logo.JPG": "/Front_End_Assessment_Bosta/static/media/logo.05ff206a22b406c5150b.JPG",
+    "static/media/cairo-latin-ext-400-normal.woff2": "/Front_End_Assessment_Bosta/static/media/cairo-latin-ext-400-normal.af4fb631b2d6b70968d9.woff2",
+    "index.html": "/Front_End_Assessment_Bosta/index.html",
+    "main.7db08120.css.map": "/Front_End_Assessment_Bosta/static/css/main.7db08120.css.map",
+    "main.9f6e04ee.js.map": "/Front_End_Assessment_Bosta/static/js/main.9f6e04ee.js.map",
+    "787.4f22b5eb.chunk.js.map": "/Front_End_Assessment_Bosta/static/js/787.4f22b5eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7db08120.css",
+    "static/js/main.9f6e04ee.js"
+  ]
+}
