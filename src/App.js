@@ -1,25 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
+import { connect } from 'react-redux';
+import { useTranslation } from "react-i18next";
+import Navbar from './layout/navbar/Navbar';
+import SpecificShipment from './components/specificShipment/SpecificShipment';
+import ShipmentDetails from './components/shipmentDetails/ShipmentDetails';
+import LoadingScreen from './layout/loadingScreen/LoadingScreen';
+import "@fontsource/cairo";
+import "@fontsource/cairo/400.css";
 import './App.css';
 
-function App() {
+function mapStateToProps(state) {
+  return {
+    getLoadingScreen: state.getLoadingScreen
+  }
+}
+
+function App({ getLoadingScreen }) {
+  const { i18n: { language } } = useTranslation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.StrictMode>
+      <div className="App" dir={language === "ar" ? "rtl" : "ltr"}>
+        <Navbar />
+        {getLoadingScreen ?
+          <LoadingScreen /> :
+          <>
+            <SpecificShipment />
+            <ShipmentDetails />
+          </>
+        }
+      </div>
+    </React.StrictMode>
   );
 }
 
-export default App;
+export default connect(mapStateToProps)(App);
