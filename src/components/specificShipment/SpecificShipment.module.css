@@ -30,16 +30,11 @@
 .ResultItemDetailWarning{
   color: rgb(251, 143, 11)
 }
-
-
-
 .progressBar {
   position: relative;
   height: 5px;
   background-color:rgb(210, 208, 208);
 }
-
-
 .progressLine{
   height: 100%;
   position: absolute;

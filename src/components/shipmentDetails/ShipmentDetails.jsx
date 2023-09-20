@@ -15,6 +15,8 @@ function ShipmentDetails(props) {
     let ShipmentDetailsData = props.getShipmentDetailsData
     return (
         <Fragment>
+
+    {/* Use grid system in page based on number(4) Build the UI completely responsive and use UI assets similar to the ones inside these images. */}
             <div className="container">
                 <div className="row">
                     <div className="col-md-8 p-5">
@@ -30,7 +32,7 @@ function ShipmentDetails(props) {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {ShipmentDetailsData?.TransitEvents?.map((item) => {
+                                    {ShipmentDetailsData?.TransitEvents?.map((item, key) => {
                                         const date = new Date(item?.timestamp)
                                         return (
                                             <tr className={style.trTableStyle}>
